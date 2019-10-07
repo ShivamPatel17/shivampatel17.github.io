@@ -18,11 +18,16 @@ body{
     padding-left: 5%;
 }
 .row2{
+    margin-top: 5%;
     background-color: inherit;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .row3{
-    background: none;
+    margin-top: 5%;
+    background-color: inherit;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .footer{
     background-color: lightcoral;
@@ -32,6 +37,7 @@ body{
 }
 .profile-picture{
     text-align:center;
+    margin: auto;
 }
 .profile-picture img{
     width:70%;
@@ -66,4 +72,13 @@ li{
 }
 ol{
     list-style: none;
+}
+
+#robot-project:hover .hidden{
+    display:block;
+    background-color:lightcoral;
+}
+.hidden{
+    /* change to hidden later after incorporating onclick with JS */
+    display: block;
 }
