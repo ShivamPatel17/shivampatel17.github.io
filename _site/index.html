@@ -1,139 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Shivam Patel</title>
-		<link rel="stylesheet" type="text/css" href="/static/css/index.css">
+<head>
+    <title>Shivam Patel</title>
+    <link rel = "stylesheet" type = "text/css" href = "/static/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class = "header">
+        <div id = "profile-picture">
+                <img src="/static/img/Headshot.jpg" alt="profilepicture">
+        </div>
+    </div>
+    <div class = "flex-grid">
+        <div class = "card" id = "aboutme">
+            About me, Shivam Patel
+        </div>
+        <div class = "card" id = "workexperience">
+            Work Experience
+        </div>
+    </div>
 
-	</head>
-	<body>
-		<div class = "grid-container">
-			<div class = "row1">
-				<div class = "main-name">
-						<h1>Hey! I am Shivam Patel</h1>
-						<p> I am a student at THE Ohio State University. I am studying Computer Science (both inside and outside of school) and looking to apply my skills in industry. My goal for 2020 is to figure out which industry I want to work in after graduating by working on personal projects and internships. Below, you can find my past experience and projects as well as contact information and other relavant links. I will be making changes for the forseeable future since I just created this page (as of 10/1/2019) and updating it with my work!</p>
-				</div>
-				<div class = "profile-picture">
-					<img src="/static/img/Headshot.jpg" alt="profilepicture">
-				</div>
-			</div>
-			<div class = "label" id = "experience">Experience</div>>
-			<div class = "flex-grid">
-				
-				<div class = "col">
-					<h5>Software Engineering Intern, Principal Finance Group</h5>
-					<h6>May 2019 - May 2019</h6>
-					<ul>
-						<li>
-							Learned to use Google Cloud Platform as part of a Code Jam project which was then presented to the whole company
-						</li>
-						<li>
-								Created a web app in Node.js with five other interns for three days while teaching some teammates how to code
-								<ul>
-									<li>
-										Technologies used: GCP (speech-to-text), Node.js (express framework), MySQL database, App Engine
-									</li>
-								</ul>
-						</li>
-						<li>
-							Cleaned up a database of customer data with python by validating addresses and reformatting text for consistency
-						</li>
-						<li>
-							Presented a financial report made in Power BI to executives in my Business Unit
-						</li>
-					</ul>
-
-				</div>
-				<div class = "col">
-					<h5>Software Development Intern, OnShift</h5>
-					<h6>May 2018 - August 2018</h6>
-					<ul>
-							<li>
-								Designed and implemented frontend mobile solutions to improve the OnShift app’s UX on a 10-person team
-							</li>
-							<li>
-								Programmed automated testing and created test cases in python for Quality Assurance
-							</li>
-							<li>
-								Worked with a mobile and feature team at the company in an AGILE environment
-							</li>
-					</ul>
-				</div>
-				<div class = "col">
-					<h5>Co-Founder, Saint Ignatius Summer Coding Camp</h5>
-					<h6>February 2017 - August 2017</h6>
-					<ul>
-							<li>
-								Created a Java programming curriculum for 7th -9th graders and taught the course in a period of two weeks
-							</li>
-							<li>
-								Collaborated with school administration to create, schedule, and found the course
-							</li>
-							<li>
-								Marketed to all middle schools in the county and reached full class capacity for all courses
-							</li>
-					</ul>
-				</div>
-			
-			</div>
-			<div class = "label">Projects</div>
-			<div class = "flex-grid">
-				<div class = "col" id = "robot-project">
-					<h5>Robot Project</h5>
-					<h6>January 2018 - May 2018</h6>
-					<ul class = "hidden">
-						<li>
-							Designed, modeled, built, and programmed an autonomous robot to navigate a course
-						</li>
-						<li>
-							Utilized MATLAB and SolidWorks while coding in C++ on a four-person team							
-						</li>
-						<li>
-							<a href = "http://u.osu.edu/feh18c6/">Team C6 Project Pages</a>
-						</li>
-					</ul>
-
-				</div>
-				<div class = "col" id = "heat-map">
-					<h5>Heat Map</h5>
-					<h6>May 2019 - September 2019</h6>
-					<ul class = hidden>
-						<li>
-							Used QGIS (Linux) to create a heatmap which will show demographic statistics across America filtered by zip code
-						</li>
-						<li>
-							Primary purpose is to help my uncle visualize prime markets to target for his medical company
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class = "label">Involvement</div>
-			<div class = "flex-grid">
-				<div class = "col" id = "bdai">
-					<h5>BDAI</h5>
-					<h6>September 2019 - Present</h6>
-					<ul class = "hidden">
-						<li>
-							Developer
-						</li>
-					</ul>
-				</div>
-				<div class = "col" id = "genesis">
-					<h5>Genesis</h5>
-					<h6>August 2018 - April 2019</h6>
-					<ul class = "hidden">
-						<li>
-							Won national championship
-						</li>
-						<li>
-							<a href = "https://www.youtube.com/watch?v=7jreSSUE3pE">1st Place Performance</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class = "footer">
-				<p id = "email">email: patel.shivam.m@gmail.com</p>
-			</div>
-		</div>
-	</body>
+    <script src = "/static/js/index.js"></script>
+</body>
 </html>

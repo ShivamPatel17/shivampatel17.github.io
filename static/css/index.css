@@ -1,103 +1,36 @@
-#bdai:hover .hidden{
-    display:block;
+#aboutme{
+    padding-top:15%;
+    padding-bottom:15%;
 }
-body{
-    background-color: none;
-    margin: 0;
+.card{
+    min-width: 550px;
+    font-size: 50px;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom:10%;
 }
-.col{
-    min-width: 300px;
-    max-width: 500px;
-    align-content: center;
-}
-.div-container{
-    display:grid;
-    grid-template-rows: auto auto auto auto;
-    height:100%
+.card:hover{
+    background-color: lightskyblue
 }
 .flex-grid{
-    width: 90%;
-    background-color: inherit;
-    padding-left: 5%;
-    padding-right: 5%;
-    display:flex;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    align-content: center;
+    flex-wrap: wrap;
 }
-.footer{
-    padding-left: 5%;
-    background-color: lightcoral;
-}
-#genesis:hover .hidden{
-    display:flex;
-}
-h1{
-    font-size: 100px;
-    font-family: sans-serif;
-}
-h5{
-    font-size:40px;
-    margin:0;
-}
-h6{
-    font-size:20px;
-    opacity: 90%;
-    margin:0;
-}
-.hidden{
-    display: none;
-}
-#heat-map:hover .hidden{
-    display: block;
-}
-.label{
-    width:100%;
-    align-content: center;
+.header{
     text-align: center;
-    font-size:50px;
-    padding-top:20px;
-    border-top: double 5px black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#experience.label{
-    border-top:none;
-}
-li{
-    margin:10px;
-    font-size: 25px;
-}
-.main-name{
-    text-align: left;
-}
-p{
-    font-family: sans-serif;
-    font-size:20px;
-}
-.profile-picture{
-    text-align:center;
-    margin: auto;
-    padding-top: 5px;
-}
-.profile-picture img{
-    width:70%;
-    border-radius: 50%;
-    border:5px;
-    border-color:black;
-}
-#robot-project:hover .hidden{
-    display:block;
-    background-color:lightcoral;
-}
-.row1{
-    background-color: lightcoral;
-    display: grid;
-    grid-template-columns: 70% 30%;
+    display: flex;
     height: 30%;
-    border-bottom: 20px;
-    border-bottom-width: 80%; 
-    padding-left: 5%;
+    grid-template-columns: 30%;
 }
-
-
+#profile-picture{
+    flex-grow:1;
+}
+#profile-picture img{
+    border-radius: 50%;
+    width:25%;
+}
+#workexperience{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
