@@ -4,7 +4,7 @@ $(document).ready(function(){
         window.location.replace("/workexperience");
     })
     $("#aboutme").click(function(){
-        alert("This page is currently being created!");
+        window.location.replace("/aboutme");
     })
   
 });

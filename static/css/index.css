@@ -7,7 +7,6 @@
     font-size: 50px;
     flex-grow: 1;
     text-align: center;
-    margin-bottom:10%;
 }
 .card:hover{
     background-color: lightskyblue
