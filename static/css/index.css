@@ -1,5 +1,6 @@
 #aboutme{
-    padding-top:15%;
+    padding-top:5%;
+    padding-bottom:5%;
 }
 .card{
     min-width: 550px;
@@ -29,5 +30,6 @@
     width:25%;
 }
 #workexperience{
-    padding-top: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
