@@ -16,6 +16,21 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+.flex-grid-podcast{
+    display:flex;
+    justify-content: center;
+
+}
+
+.flex-grid-podcast a{
+    height: 200px;
+    width:200px;
+    margin-right:50px;
+}
+.flex-grid-podcast a img{
+    height: 200px;
+    width:200px;
+}
 .header{
     text-align: center;
     display: flex;
@@ -34,6 +49,6 @@
     padding-bottom: 5%;
 }
 #projects{
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
