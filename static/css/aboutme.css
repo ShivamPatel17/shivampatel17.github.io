@@ -7,6 +7,9 @@ body{
     justify-content: center;
     
 }
+.flex-grid .slide{
+    width : 80%;
+}
 .slide{
     justify-self: center;
 }
