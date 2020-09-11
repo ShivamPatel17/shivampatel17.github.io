@@ -1,54 +1,66 @@
-#aboutme{
-    padding-top:5%;
-    padding-bottom:5%;
+
+body{
+    margin-left:15%;
+    margin-right:15%;
 }
-.card{
-    min-width: 550px;
-    font-size: 50px;
-    flex-grow: 1;
-    text-align: center;
-}
-.card:hover{
-    background-color: lightskyblue
-}
-.flex-grid{
+
+.container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
-.flex-grid-podcast{
-    display:flex;
-    justify-content: center;
-
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
-.flex-grid-podcast a{
-    height: 200px;
-    width:200px;
-    margin-right:50px;
+#c1{
+    flex-direction: row;
+    justify-content: start;
 }
-.flex-grid-podcast a img{
-    height: 200px;
-    width:200px;
-}
+
 .header{
-    text-align: center;
+    text-align: left;
     display: flex;
     height: 30%;
     grid-template-columns: 30%;
 }
+#name{
+    font-weight: bold;
+    font-size: 12vh;
+    text-align: center;
+    margin: auto;
+}
 #profile-picture{
     flex-grow:1;
+    width: 100%;
 }
 #profile-picture img{
     border-radius: 50%;
-    width:25%;
+    flex-grow: 1;
 }
-#workexperience{
-    padding-top: 5%;
-    padding-bottom: 5%;
+
+
+/* NAVBAR */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
-#projects{
-    padding-top: 5%;
-    padding-bottom: 5%;
+
+.navbar li {
+    float: left;
 }
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+/* END NAVBAR */

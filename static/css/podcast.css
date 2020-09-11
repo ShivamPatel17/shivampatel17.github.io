@@ -1,0 +1,15 @@
+.flex-grid-podcast{
+    display:flex;
+    justify-content: center;
+
+}
+
+.flex-grid-podcast a{
+    height: 200px;
+    width:200px;
+    margin-right:50px;
+}
+.flex-grid-podcast a img{
+    height: 200px;
+    width:200px;
+}
