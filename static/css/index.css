@@ -137,6 +137,9 @@ hr{
     text-align: center;
 }
 
+.project{
+    min-width: 300px;
+}
 .project img{
     height: 300px;
     width: 300px;
