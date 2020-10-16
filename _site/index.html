@@ -3,50 +3,241 @@
 <head>
     <title>Shivam Patel</title>
     <link rel = "stylesheet" type = "text/css" href = "/static/css/index.css">
+    <link rel = "stylesheet" type = "text/css" href = "/static/css/index-projects.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <div class = "navbar">
-        <ul>
+        <ul class= "col-md-12">
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#podcasts">Podcast List</a></li>
+            <li><a href="#podcast">Podcast List</a></li>
         </ul>
     </div>
 
-    <div class = "container" style="margin-top: 20px">
-        <div id= "c1" class = "container">
+    <div class = "container" id="main-container" style="margin-top: 20px">
+
+
+        <div id= "profile" class = "container">
             <div style="width: 34%">
                 <img src="/static/img/2020_Headshot.jpeg" id="profile-picture" alt="profilepicture">
             </div>
             <div id = "name">
                 Shivam Patel
             </div>
-        </div>
-        <div id="experience">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue consequat est, eget dictum quam dictum ac. Vivamus nec sem quis dolor volutpat interdum accumsan sit amet nisl. Ut vehicula orci nibh, ut pulvinar nulla maximus id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ac egestas massa. Nullam tristique, elit sed elementum sagittis, nisl mauris pellentesque ligula, at lobortis diam leo eget dolor. Cras nec imperdiet turpis. Aliquam erat volutpat. Sed accumsan nibh at ipsum lobortis laoreet. Nulla elementum ac odio at aliquet. Curabitur malesuada euismod erat.
-
-            Nulla scelerisque enim ac mauris ultrices ullamcorper. Sed hendrerit, turpis at sodales convallis, lorem turpis ultricies sem, id vestibulum turpis nisl eget nisi. Nulla sagittis molestie leo, in interdum nisi viverra id. Curabitur id suscipit enim, ac fermentum tellus. Sed non turpis ac purus auctor imperdiet quis id ante. Ut et dui ut lectus pretium scelerisque. Nam tincidunt condimentum lacus, eu tincidunt enim laoreet et.
-
-            Donec velit est, vulputate sed enim eget, posuere condimentum ipsum. Nam quis leo non ipsum porttitor sagittis quis quis lacus. Donec in sapien nisl. Quisque quis tempus nunc. Maecenas finibus non diam vel ornare. Cras aliquet eros mauris, vitae suscipit lacus lobortis sed. Integer ultrices odio libero, vel aliquam velit vestibulum quis. Nulla nec ornare libero. Mauris gravida luctus purus, ut bibendum mi. Donec eget augue vel elit feugiat pellentesque. Phasellus vestibulum aliquet molestie. Cras tristique sem sed massa convallis aliquam. Etiam tempus libero sit amet dolor lacinia, id molestie felis blandit. Vivamus accumsan suscipit tortor quis semper. Aenean lacus quam, placerat ut tincidunt sit amet, tincidunt eget arcu.
-
-            Nulla dignissim, quam eu malesuada dictum, neque tortor vehicula orci, et pretium justo purus eget odio. Sed quis molestie mi, elementum luctus augue. Aenean sollicitudin ultrices lorem sit amet consectetur. Phasellus dui ipsum, tincidunt et accumsan ut, gravida et metus. Suspendisse viverra consectetur ante vel dapibus. Nam malesuada lacinia lorem ac porta. Cras tincidunt tellus et facilisis tincidunt. Nulla cursus feugiat ipsum quis consectetur. Donec luctus ex eu orci varius euismod id sed massa. Fusce eget nisi lorem. Etiam quam ligula, consectetur vel commodo quis, porta id massa.
-
-            In rutrum enim in eleifend rutrum. Sed ut dapibus erat, sit amet tincidunt libero. Donec imperdiet rutrum luctus. Sed commodo vehicula volutpat. Integer sed facilisis elit. Morbi semper odio eu nisl tincidunt elementum. In pellentesque luctus aliquam. Aenean egestas ipsum et sagittis mollis. Integer vitae rutrum ex.
-        </div>
-        <div id="projects">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue consequat est, eget dictum quam dictum ac. Vivamus nec sem quis dolor volutpat interdum accumsan sit amet nisl. Ut vehicula orci nibh, ut pulvinar nulla maximus id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ac egestas massa. Nullam tristique, elit sed elementum sagittis, nisl mauris pellentesque ligula, at lobortis diam leo eget dolor. Cras nec imperdiet turpis. Aliquam erat volutpat. Sed accumsan nibh at ipsum lobortis laoreet. Nulla elementum ac odio at aliquet. Curabitur malesuada euismod erat.
-
-            Nulla scelerisque enim ac mauris ultrices ullamcorper. Sed hendrerit, turpis at sodales convallis, lorem turpis ultricies sem, id vestibulum turpis nisl eget nisi. Nulla sagittis molestie leo, in interdum nisi viverra id. Curabitur id suscipit enim, ac fermentum tellus. Sed non turpis ac purus auctor imperdiet quis id ante. Ut et dui ut lectus pretium scelerisque. Nam tincidunt condimentum lacus, eu tincidunt enim laoreet et.
-
-            Donec velit est, vulputate sed enim eget, posuere condimentum ipsum. Nam quis leo non ipsum porttitor sagittis quis quis lacus. Donec in sapien nisl. Quisque quis tempus nunc. Maecenas finibus non diam vel ornare. Cras aliquet eros mauris, vitae suscipit lacus lobortis sed. Integer ultrices odio libero, vel aliquam velit vestibulum quis. Nulla nec ornare libero. Mauris gravida luctus purus, ut bibendum mi. Donec eget augue vel elit feugiat pellentesque. Phasellus vestibulum aliquet molestie. Cras tristique sem sed massa convallis aliquam. Etiam tempus libero sit amet dolor lacinia, id molestie felis blandit. Vivamus accumsan suscipit tortor quis semper. Aenean lacus quam, placerat ut tincidunt sit amet, tincidunt eget arcu.
-
-            Nulla dignissim, quam eu malesuada dictum, neque tortor vehicula orci, et pretium justo purus eget odio. Sed quis molestie mi, elementum luctus augue. Aenean sollicitudin ultrices lorem sit amet consectetur. Phasellus dui ipsum, tincidunt et accumsan ut, gravida et metus. Suspendisse viverra consectetur ante vel dapibus. Nam malesuada lacinia lorem ac porta. Cras tincidunt tellus et facilisis tincidunt. Nulla cursus feugiat ipsum quis consectetur. Donec luctus ex eu orci varius euismod id sed massa. Fusce eget nisi lorem. Etiam quam ligula, consectetur vel commodo quis, porta id massa.
+            <hr>
 
         </div>
-        <div id="podcasts">
 
+
+        <hr size="8" width="100%" color="black">  
+
+
+
+        <div class = "container" id = "projects">
+            <h2>Projects</h2>
+            <div class = "row">
+                <div class = "col-4  project">
+                    <a href="https://www.nanolens.co/" id = "nanolens">
+                        <img class = "image_on" src = "static/img/NanolensLogo.png" id = "nanolens-img">
+                        <img class = "image_off" src = "/static/img/projects/nanolens-text.png">
+                    </a>
+                </div>
+                <div class = "col-md-4 project">
+                    <a href="https://github.com/ShivamPatel17/SuperMario3902" id = "mario">
+                        <img class = "image_on" src = "static/img/mario.png">
+                        <img class = "image_off" src = "static/img/projects/supermariobros.png">
+                    </a>
+                </div>
+                <div class = "col-md-4 project">
+                    <a href="https://github.com/ShivamPatel17/HeatMap" id = "heatmap">
+                        <img class = "image_on" src = "static/img/heatmap.png">
+                        <img class = "image_off" src = "static/img/projects/heatmap.png">
+                    </a>
+                </div>
+            </div>
         </div>
+
+
+        <hr size="8" width="100%" color="black">  
+
+
+        <div id = "experience">
+            <h2>Experiences</h2>
+
+            <div class = "container" id = "education">
+                <h3>Education</h3>
+                <div class = "row">
+                    <div class="col-md-4">
+                        <h4>The Ohio State University</h4>
+                        
+                        <div class ="experience-dates">
+                            2017-Present
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-md-8">
+                        <h5>Major</h5>
+                        <h9>Computer Science and Engineering</h9>
+                        <h5>Minor</h5>
+                        <h9>Business</h9>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class = "container" id="career">
+                <h3>Work History</h3>
+                <div class = "row">
+                    <div class="col-md-4">
+                        <h4>JP Morgan Chase & Co.</h4>
+                        <h6>Columbus, Ohio</h6>
+                        <div class ="experience-dates">
+                            2020
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <strong>Software Engineering Program Intern</strong>
+                        <ul>
+                            <li>
+                                Developed a cross platform mobile app for a nonprofit organization as a social good project to connect students 
+                            </li>
+                            <li style = "margin-left: 40px">
+                                Learned Flutter/Dart with a team of seven interns and delivered an MVP in two weeks for the nonprofit
+                            </li>
+                            <li>
+                                Used Atlassian tools such as Bitbucket, Jira, and Confluence as well as Zoom to collaborate virtually                            </li>
+                            <li>
+                                Presented the mobile app with interactive games as a business solution to the firm and nonprofit                             </li>
+                        </ul>
+                    </div>                
+                </div>
+                <div class = "row">
+                    <div class="col-md-4">
+                        <h4>Principal Finance</h4>
+                        <h6>Des Moines, Iowa</h6>
+                        <div class ="experience-dates">
+                            2019
+                        </div>    
+                    </div>
+                    <div class="col-md-8">
+                        <strong>Software Engineering Program Intern</strong>
+                        <ul>
+                            <li>
+                                Created a web app in Node.js with five other interns for three days while teaching teammates how to code                            
+                            </li>
+                            <li style = "margin-left: 40px">
+                                Technologies used: GCP (speech-to-text), Node.js (express framework), MySQL database, App Engine
+                            </li>
+                            <li>
+                                Cleaned up a database of customer data with python by validating addresses and reformatting text for consistency                             </li>
+                            <li>
+                                Presented a financial report made in Power BI to executives in my Business Unit                            </li>
+                        </ul>
+                    </div>   
+                </div>
+                <div class = "row">
+                    <div class="col-md-4">
+                        <h4>OnShift</h4>
+                        <h6>Cleveland, Ohio</h6>
+                        <div class ="experience-dates">
+                            2018
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <strong>Software Development Intern</strong>
+                        <ul>
+                            <li>
+                                Designed and implemented frontend mobile solutions to improve the OnShift app’s UX on a 10-person team                            </li>
+                            <li>
+                                Programmed automated testing and created test cases in python for Quality Assurance                            </li>
+                            <li>
+                                Worked with a mobile and feature team at the company in an AGILE environment                            </li>
+                        </ul>
+                    </div>                
+                </div>
+            </div>
+        </div>
+
+
+        <hr size="8" width="100%" color="black">  
+
+        
+
+        <div class = "container" id="podcast">
+            <h2>Podcasts</h2>
+            <hr>
+            <div class = "row podcast-text">
+                <div class = "col-md-12 podcast">
+                    <img src = "static/img/podcasts/theusuals.png">
+                    <a href="https://www.npr.org/podcasts/510318/up-first">
+                        <img src="/static/img/podcasts/upfirst.jpeg" alt="up first">
+                    </a>
+                    <a href="https://stratechery.com/">
+                        <img src="static/img/podcasts/stratechery.png" alt="stratechery">
+                    </a>
+                    <a href="http://freakonomics.com">
+                        <img src="/static/img/podcasts/freakonomics.jpeg" alt="freakonomics">
+                    </a>
+                    <a href="https://www.npr.org/podcasts/510325/the-indicator-from-planet-money">
+                        <img src="static/img/podcasts/theindicator.png" alt= "the indicator">
+                    </a>
+                    <a href="https://www.npr.org/sections/money/">
+                        <img src="/static/img/podcasts/planetmoney.png" alt="planet money">
+                    </a>
+                    <a href="https://www.wnycstudios.org/podcasts/radiolab">
+                        <img src="/static/img/podcasts/radiolab.png" alt="radiolab">
+                    </a>
+                    <a href="https://www.npr.org/podcasts/510351/short-wave">
+                        <img src="static/img/podcasts/shortwave.jpg" alt = "shortwave">
+                    </a>
+                </div>
+            </div>
+            <hr size="1" width="100%" color="black">  
+            <div class = "row podcast-text">
+                <div class = "col-md-12 podcast">
+                    <img src="static/img/podcasts/othergoodones.png">
+                    <a href="https://www.thisamericanlife.org/">
+                        <img src="static/img/podcasts/thisamericanlife.png" alt="this american life">
+                    </a>
+                    <a href="https://99percentinvisible.org/">
+                        <img src="/static/img/podcasts/99pi.png" alt="99pi">
+                    </a>
+                    <a href="https://www.nytimes.com/column/the-daily">
+                        <img src="/static/img/podcasts/thedaily.jpg" alt="the daily">
+                    </a>
+                    <a href="https://a16z.com/">
+                        <img src="/static/img/podcasts/a16z.png" alt="a16z">
+                    </a>
+                    <a href="http://podcasts.joerogan.net/">
+                        <img src = "static/img/podcasts/jre.jpg" alt="joe rogan experience">
+                    </a>
+                    <a href="https://armandalegshow.com/">
+                        <img src="/static/img/podcasts/anarmandaleg.png" alt="an arm and a leg">
+                    </a>
+                    <a href="https://www.economist.com/podcasts/">
+                        <img src="/static/img/podcasts/theeconomist.jpg" alt="the economist">
+                    </a>
+                    <a href="https://gimletmedia.com/reply-all">
+                        <img src="static/img/podcasts/replyall.jpg" alt="reply all">
+                    </a>
+                    <a href="https://www.nytimes.com/interactive/2018/podcasts/caliphate-isis-rukmini-callimachi.html">
+                        <img src="static/img/podcasts/caliphate.jpg" alt="caliphate">
+                    </a>
+                    <a href="https://www.radiotopia.fm/podcasts/over-the-road">
+                        <img src="static/img/podcasts/overtheroad.jpg" alt="over the road">
+                    </a>
+                    <a href="https://www.barstoolsports.com/shows/11/pardon-my-take">
+                        <img src="static/img/podcasts/pardonmytake.png" alt = "pardon my take">
+                    </a>
+                </div>
+            </div>
+        </div>
+       
     </div>
 
  

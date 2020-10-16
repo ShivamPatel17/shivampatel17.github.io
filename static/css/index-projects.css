@@ -1,0 +1,19 @@
+.image_off, #nanolens:hover .image_on{
+    display:none;
+}
+.image_on, #nanolens:hover .image_off{
+    display:block;
+}
+
+.image_off, #mario:hover .image_on{
+    display:none;
+}
+.image_on, #mario:hover .image_off{
+    display:block;
+}
+.image_off, #heatmap:hover .image_on{
+    display:none;
+}
+.image_on, #heatmap:hover .image_off{
+    display:block;
+}
