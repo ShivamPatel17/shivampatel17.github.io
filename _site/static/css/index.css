@@ -139,6 +139,7 @@ hr{
 }
 
 .project{
+    margin: auto;
     min-width: 300px;
 }
 .project img{
