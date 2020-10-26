@@ -6,5 +6,14 @@ $(document).ready(function(){
     $("#aboutme").click(function(){
         window.location.replace("/aboutme");
     })
-  
+    
+      
+      
 });
+
+function toggleExperiences() {
+    document.getElementById("education").classList.toggle("show");
+
+    document.getElementById("career").classList.toggle("show");
+    console.log("toggleExperiences()")
+}
