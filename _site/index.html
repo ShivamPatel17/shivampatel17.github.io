@@ -35,11 +35,11 @@
 
         <hr size="8" width="100%" color="black">  
 
-        <div id = "experience">
+        <div class = "container" id = "experience">
             <div class = "container row" onclick="toggleExperiences()">
-                <div class="col-md-1"></div>
+                <div class="col-md-1 arrow"><img class = "arrow-img" src = "/static/img/dropdown-arrow.jpg"></div>
                 <div class="col-md-10 section-header"><h2>Experiences</h2></div>
-                <div class="col-md-1 arrow"><img id= "arrow1" class = "arrow-img" src = "/static/img/dropdown-arrow.jpg"></div>
+                <div class="col-md-1"></div>
             </div>
 
             <div class = "container dropdown-content" id = "education">
@@ -139,26 +139,32 @@
         <hr size="8" width="100%" color="black">  
 
 
-        <div class = "container" id = "projects">
-            <h2>Projects</h2>
-            <div class = "row">
-                <div class = "col-md-4  project align-self-center">
-                    <a href="https://www.nanolens.co/" id = "nanolens">
-                        <img class = "image_on" src = "static/img/NanolensLogo.png" id = "nanolens-img">
-                        <img class = "image_off" src = "/static/img/projects/nanolens-text.png">
-                    </a>
-                </div>
-                <div class = "col-md-4 project align-self-center∂">
-                    <a href="https://github.com/ShivamPatel17/SuperMario3902" id = "mario">
-                        <img class = "image_on" src = "static/img/mario.png">
-                        <img class = "image_off" src = "static/img/projects/supermariobros.png">
-                    </a>
-                </div>
-                <div class = "col-md-4 project align-self-center">
-                    <a href="https://github.com/ShivamPatel17/HeatMap" id = "heatmap">
-                        <img class = "image_on" src = "static/img/heatmap.png">
-                        <img class = "image_off" src = "static/img/projects/heatmap.png">
-                    </a>
+        <div class = "container">
+            <div class = "container row" onclick="toggleProjects()">
+                <div class="col-md-1 arrow"><img id= "arrow1" class = "arrow-img" src = "/static/img/dropdown-arrow.jpg"></div>
+                <div class="col-md-10 section-header"><h2>Projects</h2></div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class ="dropdown-content" id = "projects">
+                <div class = "row">
+                    <div class = "col-md-4  project align-self-center">
+                        <a href="https://www.nanolens.co/" id = "nanolens">
+                            <img class = "image_on" src = "static/img/NanolensLogo.png" id = "nanolens-img">
+                            <img class = "image_off" src = "/static/img/projects/nanolens-text.png">
+                        </a>
+                    </div>
+                    <div class = "col-md-4 project align-self-center">
+                        <a href="https://github.com/ShivamPatel17/SuperMario3902" id = "mario">
+                            <img class = "image_on" src = "static/img/mario.png">
+                            <img class = "image_off" src = "static/img/projects/supermariobros.png">
+                        </a>
+                    </div>
+                    <div class = "col-md-4 project align-self-center">
+                        <a href="https://github.com/ShivamPatel17/HeatMap" id = "heatmap">
+                            <img class = "image_on" src = "static/img/heatmap.png">
+                            <img class = "image_off" src = "static/img/projects/heatmap.png">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,71 +175,76 @@
 
 
         <div class = "container" id="podcast">
-            <h2>Podcasts</h2>
-            <hr>
-            <div class = "row podcast-text">
-                <div class = "col-md-12 podcast">
-                    <img src = "static/img/podcasts/theusuals.png">
-                    <a href="https://www.npr.org/podcasts/510318/up-first">
-                        <img src="/static/img/podcasts/upfirst.jpeg" alt="up first">
-                    </a>
-                    <a href="https://stratechery.com/">
-                        <img src="static/img/podcasts/stratechery.png" alt="stratechery">
-                    </a>
-                    <a href="http://freakonomics.com">
-                        <img src="/static/img/podcasts/freakonomics.jpeg" alt="freakonomics">
-                    </a>
-                    <a href="https://www.npr.org/podcasts/510325/the-indicator-from-planet-money">
-                        <img src="static/img/podcasts/theindicator.png" alt= "the indicator">
-                    </a>
-                    <a href="https://www.npr.org/sections/money/">
-                        <img src="/static/img/podcasts/planetmoney.png" alt="planet money">
-                    </a>
-                    <a href="https://www.wnycstudios.org/podcasts/radiolab">
-                        <img src="/static/img/podcasts/radiolab.png" alt="radiolab">
-                    </a>
-                    <a href="https://www.npr.org/podcasts/510351/short-wave">
-                        <img src="static/img/podcasts/shortwave.jpg" alt = "shortwave">
-                    </a>
-                </div>
+            <div class = "container row" onclick="togglePodcasts()">
+                <div class="col-md-1 arrow"><img id= "arrow1" class = "arrow-img" src = "/static/img/dropdown-arrow.jpg"></div>
+                <div class="col-md-10 section-header"><h2>Podcasts</h2></div>
+                <div class="col-md-1"></div>
             </div>
-            <hr size="1" width="100%" color="black">  
-            <div class = "row podcast-text">
-                <div class = "col-md-12 podcast">
-                    <img src="static/img/podcasts/othergoodones.png">
-                    <a href="https://www.thisamericanlife.org/">
-                        <img src="static/img/podcasts/thisamericanlife.png" alt="this american life">
-                    </a>
-                    <a href="https://99percentinvisible.org/">
-                        <img src="/static/img/podcasts/99pi.png" alt="99pi">
-                    </a>
-                    <a href="https://www.nytimes.com/column/the-daily">
-                        <img src="/static/img/podcasts/thedaily.jpg" alt="the daily">
-                    </a>
-                    <a href="https://a16z.com/">
-                        <img src="/static/img/podcasts/a16z.png" alt="a16z">
-                    </a>
-                    <a href="http://podcasts.joerogan.net/">
-                        <img src = "static/img/podcasts/jre.jpg" alt="joe rogan experience">
-                    </a>
-                    <a href="https://armandalegshow.com/">
-                        <img src="/static/img/podcasts/anarmandaleg.png" alt="an arm and a leg">
-                    </a>
-                    <a href="https://www.economist.com/podcasts/">
-                        <img src="/static/img/podcasts/theeconomist.jpg" alt="the economist">
-                    </a>
-                    <a href="https://gimletmedia.com/reply-all">
-                        <img src="static/img/podcasts/replyall.jpg" alt="reply all">
-                    </a>
-                    <a href="https://www.nytimes.com/interactive/2018/podcasts/caliphate-isis-rukmini-callimachi.html">
-                        <img src="static/img/podcasts/caliphate.jpg" alt="caliphate">
-                    </a>
-                    <a href="https://www.radiotopia.fm/podcasts/over-the-road">
-                        <img src="static/img/podcasts/overtheroad.jpg" alt="over the road">
-                    </a>
-                    <a href="https://www.barstoolsports.com/shows/11/pardon-my-take">
-                        <img src="static/img/podcasts/pardonmytake.png" alt = "pardon my take">
-                    </a>
+            <div class="dropdown-content-2" id = "podcasts-dd">
+                <div class = "row podcast-text">
+                    <div class = "col-md-12 podcast">
+                        <img src = "static/img/podcasts/theusuals.png">
+                        <a href="https://www.npr.org/podcasts/510318/up-first">
+                            <img src="/static/img/podcasts/upfirst.jpeg" alt="up first">
+                        </a>
+                        <a href="https://stratechery.com/">
+                            <img src="static/img/podcasts/stratechery.png" alt="stratechery">
+                        </a>
+                        <a href="http://freakonomics.com">
+                            <img src="/static/img/podcasts/freakonomics.jpeg" alt="freakonomics">
+                        </a>
+                        <a href="https://www.npr.org/podcasts/510325/the-indicator-from-planet-money">
+                            <img src="static/img/podcasts/theindicator.png" alt= "the indicator">
+                        </a>
+                        <a href="https://www.npr.org/sections/money/">
+                            <img src="/static/img/podcasts/planetmoney.png" alt="planet money">
+                        </a>
+                        <a href="https://www.wnycstudios.org/podcasts/radiolab">
+                            <img src="/static/img/podcasts/radiolab.png" alt="radiolab">
+                        </a>
+                        <a href="https://www.npr.org/podcasts/510351/short-wave">
+                            <img src="static/img/podcasts/shortwave.jpg" alt = "shortwave">
+                        </a>
+                    </div>
+                </div>
+                <hr size="1" width="100%" color="black">  
+                <div class = "row podcast-text">
+                    <div class = "col-md-12 podcast">
+                        <img src="static/img/podcasts/othergoodones.png">
+                        <a href="https://www.thisamericanlife.org/">
+                            <img src="static/img/podcasts/thisamericanlife.png" alt="this american life">
+                        </a>
+                        <a href="https://99percentinvisible.org/">
+                            <img src="/static/img/podcasts/99pi.png" alt="99pi">
+                        </a>
+                        <a href="https://www.nytimes.com/column/the-daily">
+                            <img src="/static/img/podcasts/thedaily.jpg" alt="the daily">
+                        </a>
+                        <a href="https://a16z.com/">
+                            <img src="/static/img/podcasts/a16z.png" alt="a16z">
+                        </a>
+                        <a href="http://podcasts.joerogan.net/">
+                            <img src = "static/img/podcasts/jre.jpg" alt="joe rogan experience">
+                        </a>
+                        <a href="https://armandalegshow.com/">
+                            <img src="/static/img/podcasts/anarmandaleg.png" alt="an arm and a leg">
+                        </a>
+                        <a href="https://www.economist.com/podcasts/">
+                            <img src="/static/img/podcasts/theeconomist.jpg" alt="the economist">
+                        </a>
+                        <a href="https://gimletmedia.com/reply-all">
+                            <img src="static/img/podcasts/replyall.jpg" alt="reply all">
+                        </a>
+                        <a href="https://www.nytimes.com/interactive/2018/podcasts/caliphate-isis-rukmini-callimachi.html">
+                            <img src="static/img/podcasts/caliphate.jpg" alt="caliphate">
+                        </a>
+                        <a href="https://www.radiotopia.fm/podcasts/over-the-road">
+                            <img src="static/img/podcasts/overtheroad.jpg" alt="over the road">
+                        </a>
+                        <a href="https://www.barstoolsports.com/shows/11/pardon-my-take">
+                            <img src="static/img/podcasts/pardonmytake.png" alt = "pardon my take">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

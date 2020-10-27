@@ -143,7 +143,7 @@ hr{
     flex-grow: 1;
 }
 
-#projects > div > div.col-md-4.project{
+#projects > div.col-md-4.project{
     text-align: center;
 }
 
@@ -154,7 +154,9 @@ hr{
 .project img{
     height: 300px;
     width: 300px;
-    margin: auto
+    margin: auto;
+    border: 1px solid black;
+
 }
 
 .project #nanolens-img{

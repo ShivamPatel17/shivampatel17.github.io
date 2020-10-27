@@ -33,6 +33,10 @@
   overflow: auto;
   z-index: 1;
 }
+.dropdown-content-2 {
+  display: none;
+
+}
 
 .dropdown-content a {
   color: black;
