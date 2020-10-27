@@ -10,10 +10,21 @@ $(document).ready(function(){
       
       
 });
-
+var up = false;
 function toggleExperiences() {
     document.getElementById("education").classList.toggle("show");
-
     document.getElementById("career").classList.toggle("show");
-    console.log("toggleExperiences()")
+
+
+    var arrows = document.getElementsByClassName("arrow-img");
+    var size = arrows.length;
+    for(var i = 0; i<size; i++){
+        var arrow = arrows[i];
+        if(!up){
+            arrow.style.transform = "scaleY(-1)";
+        }else{
+            arrow.style.transform = "scaleY(1)";
+        }
+    }
+    up = !up;
 }

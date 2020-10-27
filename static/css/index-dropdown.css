@@ -1,3 +1,15 @@
+.arrow{
+  text-align: center;
+  
+  margin: auto;
+}
+.arrow img{
+  width: 80%;
+  height: 80%;
+  max-width: 100px;
+  min-width: 60px;
+}
+
 .dropbtn {
   background-color: #3498DB;
   color: white;
@@ -30,5 +42,10 @@
 }
 
 .dropdown a:hover {background-color: #ddd;}
+
+.section-header{
+  text-align: center;
+}
+
 
 .show {display: block;}
