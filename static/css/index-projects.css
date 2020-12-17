@@ -17,3 +17,10 @@
 .image_on, #heatmap:hover .image_off{
     display:block;
 }
+
+.image_off, #serenity:hover .image_on{
+    display:none;
+}
+.image_on, #serenity:hover .image_off{
+    display:block;
+}
