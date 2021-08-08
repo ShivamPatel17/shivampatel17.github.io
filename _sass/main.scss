@@ -20,7 +20,7 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #ff073a;
+$primary-color: #3b5ae4;
 
 /* General */
 
@@ -309,7 +309,7 @@ a {
         colorEmail 1s linear forwards;
     }
     .social-svg {
-      fill: #d44638;
+      fill: $primary-color;
     }
   }
 
@@ -361,7 +361,7 @@ a {
 
   @keyframes colorEmail {
     to {
-      stroke: #b23121;
+      stroke: #bc84f1;
     }
   }
 
@@ -392,20 +392,20 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    color: #4f67d3;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    color: #8b5fdd;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    color: #8229ac;
   }
 
   div[skill-weight="1"] {
     font-size: 0.75rem;
-    line-height: 0.25rem;
+    line-height: 0.50rem;
   }
 
   div[skill-weight="2"] {

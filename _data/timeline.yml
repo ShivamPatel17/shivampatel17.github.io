@@ -16,46 +16,69 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
-
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: JPMorgan Chase & Co. 
+  title-url: http://jpmorganchase.com
+  date: July 2021 - Prest
+  subtitle: Software Engineer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
+    - tag: Java
+    - tag: Spring
+    - tag: Agile
+  timeline-side: left
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+
+- title: JPMorgan Chase & Co. 
+  title-url: http://jpmorganchase.com
+  date: May 2020 - Aug 2020
+  subtitle: Software Engineering Program Intern
   tags:
     - tag: Flutter
     - tag: Dart
-    - tag: Keycloak
+    - tag: Bitbucket
+    - tag: Jira
+    - tag: Agile
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Principal Finance Group
+  title-url: https://www.principal.com
+  date: May 2019 - Aug 2019
+  subtitle: Software Engineering Intern
+  tags:
+    - tag: Node.js
+    - tag: Python
+    - tag: GCP
+    - tag: MySQL
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: OnShift
+  title-url: https://www.onshift.com
+  date: May 2018 - Aug 2018
+  subtitle: Software Development Intern
+  tags:
+    - tag: React Native
+    - tag: Agile
+    - tag: mobile
+    - tag: Quality Assurance
+    - tag: Python
+  timeline-side: right
+
+- title: THE Ohio State University
+  title-url: https://www.osu.edu
+  date: 2017 - 2021
+  subtitle: B.S. Computer Science & Engineering
+  timeline-side: left
+
+- title: Summer Coding Camp
+  date: Feb 2017 - July 2017
+  subtitle: Created a summer coding camp for kids
   tags:
     - tag: React
     - tag: Node
     - tag: Javascript
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Saint Ignatius High School
+  title-url: https://www.ignatius.edu
+  date: 2013-2017
+  subtitle: High School
   timeline-side: left

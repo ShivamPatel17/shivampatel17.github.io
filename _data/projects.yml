@@ -12,22 +12,34 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Super Mario
+  descr: "Created World 1 Level 1 of Super Mario Bros with an agile team consisting of 4 members."
+  demo: https://github.com/ShivamPatel17/SuperMario3902
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: XNA/Monogame
+    - tag: C#
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: File Hiding Rootkit
+  descr: "Hacked together a rootkit with a linux kernal module that hides any or all files/directories from users and admins on a network. The LKM can also launch malware that causes the operating system to crash (safely)."
+  demo: https://github.com/ShivamPatel17/cse2431_project2
   tags:
-    - tag: Python
-    - tag: Django
+    - tag: C
+    - tag: GCC 7.x
+    - tag: Ubuntu
+    - tag: LKM
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Serenity Mediation App
+  descr: "Augmented reality application build for iOS that provides an interactive mediation experience. All the models were created from scratch by my teammate, Emily Subr, and I."
+  demo: https://drive.google.com/file/d/1Gj_BSg6Hy3U0qXm7YsKnmL3Zoxo0D_3x/view?usp=sharing
+  tags: 
+    - tag: Maya
+    - tag: Unity
+    - tag: XCode
+
+- name: FEH
+  descr: "Designed, modeled, built, and programmed an autonomous robot to navigate a known course."
+  demo: https://github.com/ShivamPatel17/Llama
+  tags:
+    - tag: C++
+    - tag: MATLAB
+    - tag: SolidWorks

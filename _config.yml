@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Shivam Patel
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Shivam Patel's personal website powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -16,15 +16,15 @@ username: Shivam Patel
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Software Developer
 # email: Your E-Mail address for the email button.
-email: email@example.com
+email: patel.shivam.m@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: longpdo
-codepen_username: exampleUser
-dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+github_username: ShivamPatel17
+codepen_username: 
+dev_username: 
+linkedin_username: shivam--patel--
+twitter_username: shivam___patel
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description: My name is Shivam Patel and I am a software engineer who is passionate about using my skills to make a positive impact on the world. I believe technology can result in a tremendous amount of good- more so than it already has. I consider my desire to learn one of my greatest strengths. As such, I love to listen to podcasts that are particularly educational, but I also mix in some entertainment. Some of my favorite hobbies include basketball, running, gaming, and coding. I strive to become a better programmer every day because it excites me. There is so much about this field that I have yet to learn. I know that I will never learn everything, but I sure can try. This website serves as a central location to showcase my learning and the projects that go along with it.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -53,7 +53,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://drive.google.com/file/d/1XIBr-zhxDD0G5K8C7rKngXONJRxe3C2h/view?usp=sharing
 
 # PROJECTS SECTION
 # show_projects_card:
@@ -69,7 +69,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -81,12 +81,12 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: Please feel free to reach out to me! Email works best but you can contact me through any of the methods listed below.
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: ShivamPatel17/shivampatel17.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
