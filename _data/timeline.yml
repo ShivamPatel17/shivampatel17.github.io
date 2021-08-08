@@ -27,6 +27,13 @@
   timeline-side: left
 
 
+- title: THE Ohio State University
+  title-url: https://www.osu.edu
+  date: 2017 - 2021
+  subtitle: B.S. Computer Science & Engineering
+  timeline-side: left
+
+  
 - title: JPMorgan Chase & Co. 
   title-url: http://jpmorganchase.com
   date: May 2020 - Aug 2020
@@ -60,21 +67,6 @@
     - tag: mobile
     - tag: Quality Assurance
     - tag: Python
-  timeline-side: right
-
-- title: THE Ohio State University
-  title-url: https://www.osu.edu
-  date: 2017 - 2021
-  subtitle: B.S. Computer Science & Engineering
-  timeline-side: left
-
-- title: Summer Coding Camp
-  date: Feb 2017 - July 2017
-  subtitle: Created a summer coding camp for kids
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
   timeline-side: right
 
 - title: Saint Ignatius High School

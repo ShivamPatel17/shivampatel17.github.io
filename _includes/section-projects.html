@@ -4,14 +4,18 @@
     {% for project in site.data.projects %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
-          <h3>{{project.name}}</h3>
+          <h3>
+            <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
+              {{project.name}}
+            </a>
+          </h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
+        <!-- {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
             Demo
           </a>
-        {% endif %}
+        {% endif %} -->
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}

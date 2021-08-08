@@ -81,7 +81,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Please feel free to reach out to me! Email works best but you can contact me through any of the methods listed below.
+contact_description: Please feel free to reach out to me! Email works best, but you may contact me through any of the methods listed below. This website was built using a template built by <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">Long Do</a>
 
 # GITHUB-METADATA
 # Set this to your forked repository
