@@ -12,6 +12,16 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: Elephant RFID Automated Feeder 
+  descr: "Developed a Django web app to allow Cincinnati Zookeepers to program physical food dispensers for their Elephants. I served as the project manager & scrum master for the 5 person team as well as a front end developer."
+  demo: https://github.com/ShivamPatel17/Hungry-Elephants
+  tags: 
+    - tag: Django
+    - tag: Python
+    - tag: Scrum Master
+    - tag: Project Manager
+
+
 - name: Super Mario
   descr: "Created World 1 Level 1 of Super Mario Bros with an agile team consisting of 4 members."
   demo: https://github.com/ShivamPatel17/SuperMario3902
@@ -36,10 +46,18 @@
     - tag: Unity
     - tag: XCode
 
-- name: FEH
+- name: Ohio State Engineering Robot Project
   descr: "Designed, modeled, built, and programmed an autonomous robot to navigate a known course."
   demo: https://github.com/ShivamPatel17/Llama
   tags:
     - tag: C++
     - tag: MATLAB
     - tag: SolidWorks
+
+- name: Heat Map
+  descr: United States heat maps for the 65 year old+ population. Created for someone who wanted visualize where there will be a boom of elderly people.
+  demo: https://github.com/ShivamPatel17/HeatMap
+  tags:
+    - tag: Python
+    - tag: Big Data
+    - tag: QGIS
