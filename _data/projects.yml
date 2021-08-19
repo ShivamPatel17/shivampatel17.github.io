@@ -24,7 +24,7 @@
 
 - name: Super Mario
   descr: "Created World 1 Level 1 of Super Mario Bros with an agile team consisting of 4 members."
-  demo: https://github.com/ShivamPatel17/SuperMario3902
+  demo: https://github.com/ShivamPatel17/SuperMario3902/tree/master/Gameplay%20Videos
   tags:
     - tag: XNA/Monogame
     - tag: C#
