@@ -207,3 +207,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 [product-screenshot]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/screenshot.gif
 [github-repo-info]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/github-repo-info.png
+
+To recompile sass run this:
+sass _sass/main.scss assets/css/main.min.css
+
+Get rid of the text in the about me section, make it less wordy
+
+maybe put some pictures in there?
+
+make the project section better, more visual?
+
+
