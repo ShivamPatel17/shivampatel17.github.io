@@ -34,7 +34,15 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: My name is Shivam Patel and I am a software engineer who is passionate about using my skills to make a positive impact on the world. I believe technology can result in a tremendous amount of good- more so than it already has. I consider my desire to learn one of my greatest strengths. As such, I love to listen to podcasts that are particularly educational, but I also mix in some entertainment. Some of my favorite hobbies include basketball, running, gaming, and coding. I strive to become a better programmer every day because it excites me. There is so much about this field that I have yet to learn. I know that I will never learn everything, but I sure can try. This website serves as a central location to showcase my learning and the projects that go along with it.
+about_me_description: My name is Shivam Patel and I am a software engineer and an aspiring blockchain developer.
+
+# ABOUT ME SLIDESHOW SECTION
+# show_aboutme_sideshow_card:
+show_aboutme_card: true
+#Add other things you need here
+
+
+
 
 # SKILLS SECTION
 # show_skills_card:

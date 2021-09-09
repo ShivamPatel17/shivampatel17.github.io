@@ -19,6 +19,7 @@
 
   <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -35,6 +36,11 @@
     {%if site.show_aboutme_card %}
       <section class="card neumorphism-card-big">
         {% include section-aboutme.html %}
+      </section>
+    {% endif %}
+    {%if site.show_aboutme_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-aboutme-slideshow.html %}
       </section>
     {% endif %}
     {%if site.show_skills_card %}
