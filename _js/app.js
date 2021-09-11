@@ -7,6 +7,12 @@ $(document).ready(function() {
     window.scrollTo(0, 0);
   });
 
+  var isMobile = false;
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    // true for mobile device
+    isMobile = true;
+  }
+
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('landing', 'assets/particles.json', function() {});
 
@@ -38,29 +44,30 @@ $(document).ready(function() {
 
   randomizeOrder();
 
+  if(isMobile){
+    document.querySelector("#slideshow-section-card").style.display = "none";
+  }
 
   var slideIndex = 1;
 
 
   setInterval(function() {
-    var start = 1;
-    var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount
-    // for(i = start; i<=numSlides; i++){
-    //   document.querySelector("#aboutme-slideshow > div > div:nth-child("+i+")").style.color = "blue";
-    // }
-    for(i = start; i <= numSlides; i++){
-      var element = document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+i+")");
-      if(i==slideIndex){
-        fadeOutElement(element, 100);
-      }
-    }
-    var element = document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+slideIndex+")");
-    element.style.opacity = 0;
-    element.style.display = "inline";
-    fadeInElement(element, 100);
+    var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount;
+    var previous = slideIndex-1;
+    if(previous==0) previous = numSlides;
+    console.log(slideIndex);
+
+
+    
+    document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+previous+")").style.display = "none";
+    document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+slideIndex+")").style.display = "inline";
+
+ 
+    
+
     slideIndex++;
-    if(slideIndex>numSlides) slideIndex= start;
-  }, 10000);
+    if(slideIndex>numSlides) slideIndex= 1;
+  }, 5000);
   
 
 });
@@ -151,35 +158,36 @@ function randomizeOrder() {
 }
 
 function fadeOutElement(element, duration){
+  console.log("OUT start")
   var op = 1;
   var timer = setInterval(function () {
-    if (op <= 0.1){
-        clearInterval(timer);
-        element.style.display = 'none';
+    if (op > 0){
+      op -= op * 0.1;
+      element.style.opacity = op;
+      element.style.filter = 'alpha(opacity=' + op * 100 + ")";
     }
-    element.style.opacity = op;
-    element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= op * 0.1;
+    
+    
   }, duration);
   element.style.display = "none";
+  console.log("OUT over");
+
 }
 
 function fadeInElement(element, duration) {
-  console.log("in time in");
+  console.log("IN start");
   var op = 0.1;  // initial opacity
-  element.style.display = 'block';
+  element.style.opacity = 0;
+  element.style.display = "inline";
   var timer = setInterval(function () {
-      if (op >= 1){
-          clearInterval(timer);
+      if(op<=1){
+        op += op * 0.1;
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
       }
-      element.style.opacity = op;
-      element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-      op += op * 0.1;
+      
   }, duration);
-  console.log("before timeout");
-  setTimeout(function(){
-    console.log("in   
-  }, 5000);
-}
+  console.log("IN over");
 
+}
 
