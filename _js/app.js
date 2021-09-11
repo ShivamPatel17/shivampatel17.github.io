@@ -44,16 +44,23 @@ $(document).ready(function() {
 
   setInterval(function() {
     var start = 1;
-    var numSlides = 3;
-    for(i = start; i<=numSlides; i++){
-      document.querySelector("#aboutme-slideshow > div > div:nth-child("+i+")").style.color = "blue";
+    var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount
+    // for(i = start; i<=numSlides; i++){
+    //   document.querySelector("#aboutme-slideshow > div > div:nth-child("+i+")").style.color = "blue";
+    // }
+    for(i = start; i <= numSlides; i++){
+      var element = document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+i+")");
+      if(i==slideIndex){
+        fadeOutElement(element, 100);
+      }
     }
-    document.querySelector("#aboutme-slideshow > div > div:nth-child("+slideIndex+")").style.color = "green";
+    var element = document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+slideIndex+")");
+    element.style.opacity = 0;
+    element.style.display = "inline";
+    fadeInElement(element, 100);
     slideIndex++;
     if(slideIndex>numSlides) slideIndex= start;
-
-
-  }, 3000);
+  }, 10000);
   
 
 });
@@ -143,6 +150,36 @@ function randomizeOrder() {
   parent.appendChild(frag);
 }
 
+function fadeOutElement(element, duration){
+  var op = 1;
+  var timer = setInterval(function () {
+    if (op <= 0.1){
+        clearInterval(timer);
+        element.style.display = 'none';
+    }
+    element.style.opacity = op;
+    element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+    op -= op * 0.1;
+  }, duration);
+  element.style.display = "none";
+}
 
+function fadeInElement(element, duration) {
+  console.log("in time in");
+  var op = 0.1;  // initial opacity
+  element.style.display = 'block';
+  var timer = setInterval(function () {
+      if (op >= 1){
+          clearInterval(timer);
+      }
+      element.style.opacity = op;
+      element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+      op += op * 0.1;
+  }, duration);
+  console.log("before timeout");
+  setTimeout(function(){
+    console.log("in   
+  }, 5000);
+}
 
 
