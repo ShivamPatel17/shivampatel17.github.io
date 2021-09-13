@@ -50,31 +50,35 @@ $(document).ready(function() {
 
   var slideIndex = 1;
 
+  hideAllButFirstSlide();
 
   setInterval(function() {
-    
+
     var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount;
     var previous = slideIndex-1;
     if(previous==0) previous = numSlides;
     console.log(slideIndex);
-
-
     
     document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+previous+")").style.display = "none";
     document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+slideIndex+")").style.display = "inline";
 
- 
-    
-
     slideIndex++;
     if(slideIndex>numSlides) slideIndex= 1;
   }, 5000);
-  
-
 });
 
 /* FUNCTIONS */
 /* Preloader */
+
+function hideAllButFirstSlide(){
+  console.log("in hide all");
+  var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount;
+  for(i = 2; i<=numSlides; i++){
+    console.log(i);
+    document.querySelector("#aboutme-slideshow > div.slideshow-pictures > div:nth-child("+i+")").style.display = "none";
+  }
+}
+
 
 function fadeOutPreloader(element, duration) {
   opacity = 1;
