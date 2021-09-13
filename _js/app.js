@@ -52,6 +52,7 @@ $(document).ready(function() {
 
 
   setInterval(function() {
+    
     var numSlides = document.querySelector("#aboutme-slideshow > div.slideshow-pictures").childElementCount;
     var previous = slideIndex-1;
     if(previous==0) previous = numSlides;

@@ -102,7 +102,7 @@ function jekyll(done) {
  */
 function watchData() {
   gulp.watch(
-    [ '_data/*.yml', '_config.yml', 'assets/*.json' ],
+    [ '_data/*.yml', '_config.yml', 'assets/*.json', 'assets/img/*' ],
     gulp.series(jekyll, browserSyncReload)
   );
 }
