@@ -11,8 +11,8 @@
 - name: Bash
   weight: 3
 
-- name: Scrum
-  weight: 5
+- name: Agile
+  weight: 4
 
 - name: Jenkins
   weight: 1
@@ -24,15 +24,12 @@
   weight: 3
 
 - name: Eclipse
-  weight: 2
+  weight: 3
 
 - name: IntelliJ
   weight: 3
 
-- name: AWS
-  weight: 1
-
-- name: GCP
+- name: Cloud
   weight: 1
 
 - name: Jira
@@ -40,6 +37,3 @@
 
 - name: Linux
   weight: 3
-
-- name: R Studio
-  weight: 1
