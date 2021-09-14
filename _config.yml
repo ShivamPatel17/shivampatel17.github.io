@@ -34,11 +34,11 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: My name is Shivam Patel and I am a software engineer and an aspiring blockchain developer.
+about_me_description: I am a software engineer and an aspiring blockchain developer.
 
 # ABOUT ME SLIDESHOW SECTION
 # show_aboutme_sideshow_card:
-show_aboutme_card: true
+show_slideshow_card: false
 #Add other things you need here
 
 
