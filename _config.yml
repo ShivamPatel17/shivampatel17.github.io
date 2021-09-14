@@ -34,7 +34,8 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a software engineer and an aspiring blockchain developer.
+about_me_description: I am a software engineer and an aspiring blockchain developer. I am passionate about technology, economics, sports, and collaboration. One day I will start my own company that blends these passions together, but for now I am looking to build my experience through full time work, hackathons, tutorials, and open source contributions.  
+about_me_transition: Below, you will find my Skills, Education/Experience, Projects, and some of my favorite Podcasts.
 
 # ABOUT ME SLIDESHOW SECTION
 # show_aboutme_sideshow_card:
@@ -89,7 +90,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Please feel free to reach out to me! Email works best, but you may contact me through any of the methods listed below. This website was built using a template built by <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">Long Do</a>
+contact_description: Please feel free to reach out to me! Email works best, but you may contact me through any of the methods listed below. 
 
 # GITHUB-METADATA
 # Set this to your forked repository

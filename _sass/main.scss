@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 /* Variables */
-
+$mobile-screen: 12em !default;
 $small-screen: 48em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
@@ -652,7 +652,7 @@ a {
 }
 
 /* SLIDE SHOW IMAGES */
-
+/* change this to podcast stuff */
 .slideshow-pictures {
   text-align: center;
   height: 42rem;
@@ -671,10 +671,34 @@ a {
   }
 }
 
+/* About me formatting */@at-root
+/* SLIDE SHOW IMAGES */
+.about-me{
+  display: flex;
+}
+
 
 /* Media Queries */
-
+@media only screen and (min-width: $mobile-screen){
+  .about-me{
+    display: block;
+    #profile-picture{
+      width: 100%;
+    }
+  }
+}
 @media only screen and (min-width: $small-screen) {
+  .about-me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    #profile-picture{
+      max-height: 24rem;
+      max-width: 16rem;
+      margin-right: 3rem;
+    }
+  }
+
   .layout {
     margin: 0.5rem auto;
     padding: 2rem 2rem;
@@ -701,6 +725,7 @@ a {
       font-size: 2rem;
     }
   }
+
 
   #skills {
     div[skill-weight="1"] {
@@ -802,7 +827,7 @@ a {
 
       .time-wrapper {
         float: left;
-        margin-top: -0.1rem;
+        margin-top: 0.5rem;
       }
 
       .desc {
@@ -828,7 +853,7 @@ a {
 
       .time-wrapper {
         float: right;
-        margin-top: -0.1rem;
+        margin-top: 0.5rem;
       }
 
       .desc {
@@ -858,6 +883,16 @@ a {
 }
 
 @media only screen and (min-width: $medium-screen) {
+  .about-me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    #profile-picture{
+      max-height: 27rem;
+      max-width: 18rem;
+      margin-right: 3rem;
+    }
+  }
   .layout {
     padding: 3rem 3rem;
   }
@@ -869,6 +904,8 @@ a {
   #skills .filter-button {
     width: 21.5%;
   }
+
+
 
   .timeline-wrapper {
     .timeline {
@@ -889,9 +926,22 @@ a {
       width: 45%;
     }
   }
+
 }
 
 @media only screen and (min-width: $large-screen) {
+  .about-me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    #profile-picture{
+      max-height: 30rem;
+      max-width: 20rem;
+      margin-right: 5rem;
+    }
+  }
+
+  
   .layout {
     padding: 5rem 5rem;
   }

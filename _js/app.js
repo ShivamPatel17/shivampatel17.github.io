@@ -50,7 +50,7 @@ $(document).ready(function() {
 
   var slideIndex = 1;
 
-  hideAllButFirstSlide();
+  //hideAllButFirstSlide();
 
   setInterval(function() {
 
