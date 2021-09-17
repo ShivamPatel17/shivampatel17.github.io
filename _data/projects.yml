@@ -46,7 +46,7 @@
     - tag: Unity
     - tag: XCode
 
-- name: Ohio State Engineering Robot Project
+- name: Autonomous Robot Competition
   descr: "Designed, modeled, built, and programmed an autonomous robot to navigate a known course."
   demo: https://github.com/ShivamPatel17/Llama
   tags:
