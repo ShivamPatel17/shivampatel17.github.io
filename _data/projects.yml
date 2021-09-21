@@ -38,7 +38,7 @@
     - tag: Ubuntu
     - tag: LKM
 
-- name: Serenity Mediation App
+- name: Serenity Meditation App
   descr: "Augmented reality application build for iOS that provides an interactive mediation experience. All the models were created from scratch by my teammate, Emily Subr, and I."
   demo: https://drive.google.com/file/d/1Gj_BSg6Hy3U0qXm7YsKnmL3Zoxo0D_3x/view?usp=sharing
   tags: 
