@@ -12,6 +12,15 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: GhostlyCoin
+  descr: "My implementation of ERC-20. Developed using Solidity, tested using truffle and ganashe, deployed to the Rinkeby test network. Includes a simple UI to purchase tokens"
+  demo: "https://github.com/ShivamPatel17/Ghostlycoin"
+  tags:
+    - tag: Solidity
+    - tag: Truffle
+    - tag: Ganashe
+    - tag: ERC-20
+
 - name: Elephant RFID Automated Feeder 
   descr: "Developed a Django web app to allow Cincinnati Zookeepers to program physical food dispensers for their Elephants. I served as the project manager & scrum master for the 5 person team as well as a front end developer."
   demo: https://github.com/ShivamPatel17/Hungry-Elephants
