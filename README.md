@@ -219,5 +219,4 @@ make the project section better, more visual?
 
 Actually okay now you can run gulp --watch
 
-
-
+Make sure you're on Node version 11.1.0

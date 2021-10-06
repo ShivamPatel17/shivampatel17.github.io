@@ -14,7 +14,7 @@
 #     - tag: Node
 - name: GhostlyCoin
   descr: "My implementation of ERC-20. Developed using Solidity, tested using truffle and ganashe, deployed to the Rinkeby test network. Includes a simple UI to purchase tokens"
-  demo: "https://github.com/ShivamPatel17/Ghostlycoin"
+  demo: "https://rinkeby.etherscan.io/token/0x750803476c884e633436bc78be0681996b3e9683"
   tags:
     - tag: Solidity
     - tag: Truffle
