@@ -21,28 +21,19 @@
   weight: 2
 
 - name: SASS
-  weight: 1
+  weight: 2
 
 - name: Dart
-  weight: 3
-
-- name: Swift
-  weight: 1
-
-- name: Kotlin
   weight: 3
 
 - name: C++
   weight: 1
 
-- name: C
-  weight: 1
-
 - name: Node.js
-  weight: 1
+  weight: 3
 
-- name: R
-  weight: 1
+- name: TypeScript
+  weight: 3
 
 - name: Solidity
   weigth: 3
