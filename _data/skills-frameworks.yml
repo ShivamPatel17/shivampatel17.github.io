@@ -9,10 +9,10 @@
   weight: 5
 
 - name: Spring
-  weight: 3
+  weight: 2
 
 - name: Flutter
-  weight: 4
+  weight: 2
 
-- name: React Native
-  weight: 1
+- name: React
+  weight: 3

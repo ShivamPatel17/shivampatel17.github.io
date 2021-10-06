@@ -14,26 +14,12 @@
 - name: Agile
   weight: 4
 
-- name: Jenkins
-  weight: 1
-
 - name: npm
   weight: 2
 
-- name: VS Code
+- name: NextJs
   weight: 3
-
-- name: Eclipse
-  weight: 3
-
-- name: IntelliJ
-  weight: 3
-
-- name: Cloud
-  weight: 1
 
 - name: Jira
   weight: 3
 
-- name: Linux
-  weight: 3
