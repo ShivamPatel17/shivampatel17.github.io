@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: This is a picture of me :) I am a software engineer and an aspiring blockchain developer. I am passionate about technology, economics, sports, and collaboration. I am looking to build my experience through full time work, hackathons, tutorials, and open source contributions.  
+about_me_description: This is a picture of me :) I am a software engineer and an aspiring blockchain developer. My passions include technology, economics, sports, and collaboration. My goal is to build experience through full time work, hackathons, tutorials, and open source contributions.  
 about_me_transition: Below, you will find my Skills, Education/Experience, Projects, and some of my favorite Podcasts.
 
 # ABOUT ME SLIDESHOW SECTION
