@@ -5,8 +5,11 @@
 # - name: Framework
 #   weight: 5
 
-- name: Django
+- name: Rails
   weight: 5
+  
+- name: Django
+  weight: 4
 
 - name: Spring
   weight: 2
