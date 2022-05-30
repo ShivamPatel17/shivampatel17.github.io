@@ -8,20 +8,23 @@
 - name: Java
   weight: 5
 
-- name: JavaScript
-  weight: 1
+- name: Ruby
+  weight: 5
 
-- name: Python
+- name: JavaScript
   weight: 4
 
-- name: HTML5
+- name: Python
   weight: 3
 
+- name: HTML5
+  weight: 4
+
 - name: CSS3
-  weight: 2
+  weight: 4
 
 - name: SASS
-  weight: 2
+  weight: 3
 
 - name: Dart
   weight: 3
@@ -30,10 +33,10 @@
   weight: 1
 
 - name: Node.js
-  weight: 3
+  weight: 2
 
 - name: TypeScript
   weight: 3
 
 - name: Solidity
-  weigth: 3
+  weigth: 1
