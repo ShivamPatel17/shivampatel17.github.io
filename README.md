@@ -68,7 +68,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 * [NodeJS](https://nodejs.org/en/)
-
+* [Use the correct version of node for node-sass to work](https://github.com/sass/node-sass/releases/)
 ```sh
 brew install node
 ```
